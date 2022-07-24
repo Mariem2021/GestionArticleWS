@@ -1,0 +1,74 @@
+body{
+    font-family: 'Architects Daughter', cursive;
+}
+
+/* Articles List Style */
+
+.heading{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/news.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading .title {
+ margin-top: -9% !important;
+}
+.heading .title h3{
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5%;
+    font-family: 'Architects Daughter', cursive;
+}
+.heading button{
+    font-size: 20px;
+    padding-right: 2%;
+    padding-left: 2%;
+    border-radius: 2%;
+}
+.list-news{
+    /* margin-top: 3%; */
+    margin-bottom: 4%;
+}
+.list-news .title {
+    /* background-color: black; */
+    color: black;
+    width: 40%;
+    /* margin: 0 auto; */
+    font-size: 20px;
+    float: left !important;
+}
+
+.categories{
+    /* border-radius: 5% ; */
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.8);
+}
+
+.link-category{
+    
+}
+
+/* End of Articles List Style */
+
+
+/* Start of Footer */
+
+.footer{
+    margin-top: 5%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1%;
+    width: 100%;
+    font-family: 'Architects Daughter', cursive;
+
+}
+
+
+/* End of Footer */
